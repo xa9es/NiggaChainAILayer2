@@ -1,0 +1,6 @@
+ui.newTab("my_auth", "Auth")
+ui.newContainer("my_auth", "auth_con", "Verification", { autosize = true, next = true })
+ui.newDropdown("my_auth", "auth_con", "Types", {"Login", "Register"}, 1)
+cheat.register("onSlowUpdate", function() 
+    print("jesus")
+end)
