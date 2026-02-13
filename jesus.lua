@@ -28,5 +28,3 @@ function Animation(p1)
         end
     end
 end
-
-return Animation
