@@ -1,4 +1,5 @@
-function Animation(p1)
+local real = {}
+function real.Animation(p1)
     local v2 = memory_read("uintptr_t", p1.Address + 1576)
     if not v2 or v2 == 0 then
         return nil
@@ -28,3 +29,5 @@ function Animation(p1)
         end
     end
 end
+
+return real
